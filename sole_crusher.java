@@ -1,10 +1,10 @@
-import java.util.*;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
 
-public class Main
+public class sole_crusher 
 {
-    public static void main(String [] args)
-    {
+    public static void main(String[] args) {
         ArrayList<String> swear_string = new ArrayList<>();
         swear_string.add("Your programming abilities are so outdated, they should be stored in a museum.");
         swear_string.add("The complexity of your code is truly mesmerizing—to the point of inducing sleep.");
@@ -15,16 +15,34 @@ public class Main
         swear_string.add("Your programming abilities are so outdated, they should be stored in a museum.");
         swear_string.add("You cant win..!");
         swear_string.add("Your skills are truly one in a billion. Too bad there are billions of others.");
-        
+
         Collections.shuffle(swear_string);
-        
+
         int index = 0;
-        
-        String element = swear_string.get(index);
-        
-        System.out.println(element);
-        
-        index = (index + 1)% swear_string.size();
-        
+
+        Scanner sc = new Scanner(System.in);
+        String response;
+
+        System.out.println("Enter 'quit' to give up or any other input to get a response:");
+        while (true) 
+        {
+            response = sc.nextLine();
+
+            if (response.equalsIgnoreCase("quit")) 
+            {
+                break;
+            }
+
+            String element = swear_string.get(index);
+            System.out.println(element);
+
+            index = (index + 1) % swear_string.size();
+        }
+
+        System.out.println("Goodbye!");
+    
+    
+    
+    sc.close();
     }
 }
