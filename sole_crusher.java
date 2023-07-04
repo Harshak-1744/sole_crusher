@@ -6,7 +6,8 @@ public class sole_crusher
 {
     public static void main(String[] args) {
         ArrayList<String> swear_string = new ArrayList<>();
-         swear_string.add("You cant win..!");
+        
+        swear_string.add("You cant win..!");
         swear_string.add("Your programming abilities are so outdated, they should be stored in a museum.");
         swear_string.add("The complexity of your code is truly mesmerizing—to the point of inducing sleep.");
         swear_string.add("Congratulations on achieving the bare minimum. You must be so proud.");
