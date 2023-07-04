@@ -39,7 +39,7 @@ public class sole_crusher
             index = (index + 1) % swear_string.size();
         }
 
-        System.out.println("Goodbye!");
+        System.out.println("Haaha Suck it up looser!");
     
     
     
