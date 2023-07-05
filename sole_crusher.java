@@ -17,7 +17,10 @@ public class sole_crusher
         swear_string.add("Your programming abilities are so outdated, they should be stored in a museum.");
         swear_string.add("Your skills are truly one in a billion. Too bad there are billions of others.");
         swear_string.add("You're a master of inconsistency. Your work is consistently disappointing.");
-
+        swear_string.add("Congratulations on creating a program that perfectly emulates a sloth—slow, unresponsive, and always taking naps.");
+        swear_string.add("You have a knack for turning simple tasks into complex problems. It's like a talent for creating your own obstacles.");
+        swear_string.add("Your coding style is a beautiful mess—a Picasso painting with syntax errors.");
+            
         Collections.shuffle(swear_string);
 
         int index = 0;
