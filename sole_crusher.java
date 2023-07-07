@@ -4,7 +4,20 @@ import java.util.Scanner;
 
 public class sole_crusher 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException
+    {
+            String banner =
+                "   _  __  _      _      _       \n" +
+                "  | |/ / (_)  __| |  __| |  ___ \n" +
+                "  | ' <  | | / _` | / _` | / _ \\\n" +
+                "  |_|\\_\\ |_| \\__,_| \\__,_| \\___/\n";
+    
+            for (int i = 0; i < banner.length(); i++) 
+            {
+                System.out.print(banner.charAt(i));
+                Thread.sleep(17); 
+            }
+        System.out.println("Enter 'start' to Start the Program :");
         ArrayList<String> swear_string = new ArrayList<>();
         
         swear_string.add("You cant win..!");
