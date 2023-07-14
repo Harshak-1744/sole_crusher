@@ -34,6 +34,8 @@ public class sole_crusher
         swear_string.add("You have a knack for turning simple tasks into complex problems. It's like a talent for creating your own obstacles.");
         swear_string.add("Your coding style is a beautiful mess—a Picasso painting with syntax errors.");
         swear_string.add("Your commit messages are so descriptive that they rival the complexity of the code changes themselves.");
+        swear_string.add("Your coding speed is impressive. It's like watching a sloth in a marathon—slow and steady wins the race... eventually.");
+        swear_string.add("Congratulations on achieving a perfect balance between over-engineering and under-delivering.");
             
         Collections.shuffle(swear_string);
 
